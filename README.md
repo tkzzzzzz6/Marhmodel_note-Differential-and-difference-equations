@@ -51,7 +51,7 @@
 
 一个较热的物体置于室温为 18°C 的房间内，该物体最初的温度是 60°C，3 分钟以后降到 50°C。想知道它的温度降到 30°C 需要多少时间？10 分钟以后它的温度是多少？
 
-**牛顿冷却（加热）定律**：将温度为 $T$ 的物体放入处于常温 $m$ 的介质中时，$T$ 的变化速率正比于 $T$ 与周围介质的温度差。
+**牛顿冷却（加热）定律**：将温度为 $T$ 的物体放入处于常温 $m$ 的介质中时,$T$ 的变化速率正比于 $T$ 与周围介质的温度差。
 
 牛顿冷却定律描述了物体温度随时间变化的过程。根据牛顿冷却定律，温度 $$T(t)$$ 随时间 $t$ 的变化满足以下微分方程：
 
@@ -250,7 +250,9 @@ $$
 t_m = \lambda^{-1} \ln \left(\frac{1}{i_0} - 1\right)
 $$
 
-$\lambda$ $\downarrow \rightarrow t_m \uparrow$
+$$
+\lambda \downarrow \rightarrow t_m \uparrow
+$$
 
 $$
 t \rightarrow \infty \Rightarrow i \rightarrow 1
@@ -469,7 +471,7 @@ $$
 
 #### SIR 模型的数值解
 
-设 $\lambda = 1$ , $\mu = 0.3$ , $i_0 = 0.02$, $s_0 = 0.98$, 用 MATLAB 计算作图 $i(t)$,$ s(t)$及$ i(s)$
+设 $\lambda = 1$ , $\mu = 0.3$ , $i_0 = 0.02$, $s_0 = 0.98$, 用 MATLAB 计算作图 $i(t)$,$s(t)$ 及 $i(s)$
 
 $$
 \frac{di}{ds} = \frac{\lambda si - \mu i}{-\lambda si}
@@ -490,7 +492,7 @@ i \big|_{s = s_0} = i_0
 \end{cases}
 $$
 
-相轨线:$i(s) = (s_0 + i_0) - s + \frac{1}{\sigma} \ln \frac{s}{s_0}$
+相轨线: $i(s) = (s_0 + i_0) - s + \frac{1}{\sigma} \ln \frac{s}{s_0}$
 
 相轨线 $i(s)$ 的定义域：
 
@@ -504,7 +506,7 @@ $s(t)$ 单调递减 $\rightarrow$ 相轨线的方向
 
 #### 预防传染病蔓延的手段
 
-传染病不蔓延的条件——$s_0 < 1/\sigma$
+传染病不蔓延的条件—— $s_0 < 1/\sigma$
 
 - 提高阈值 $1/\sigma$
 
@@ -513,7 +515,7 @@ $s(t)$ 单调递减 $\rightarrow$ 相轨线的方向
   - $\mu$ (日治愈率) $\uparrow \rightarrow$ 医疗水平 $\uparrow$
 - 降低 $s_0$
 
-  - 提高 $r_0$$\rightarrow$群体免疫
+  - 提高 $r_0$ $\rightarrow$ 群体免疫
 
 $$
 s_0 + i_0 + r_0 = 1
@@ -628,7 +630,7 @@ $$
 w(x, t + \Delta t) - w(x, t) = \frac{q(x,t)\Delta t b\Delta t}{v\Delta t}
 $$
 
-其中：$q(x,t) = auw(ut,t)e^{-\frac{b(x-ut)}{v}}$
+其中： $q(x,t) = auw(ut,t)e^{-\frac{b(x-ut)}{v}}$
 
 $$
 \begin{cases}\frac{\partial w(ut,t)}{\partial t} = \frac{b}{v}auw(ut,t)e^{-\frac{b(x-ut)}{v}}\\
@@ -660,7 +662,7 @@ $$
 
 ## 结果分析
 
-1. $Q$ 与 $a, M$ 成正比。($aM$ 是毒物集中在 $x = l_1$ 处的吸入量)
+1. $Q$ 与 $a, M$ 成正比。( $aM$ 是毒物集中在 $x = l_1$ 处的吸入量)
 2. $e^{-\frac{\beta l_2}{v}} \sim$ 过滤嘴因素, $\beta, l_2 \sim$ 负指数作用
 3. $\varphi(r) \sim$ 烟草的吸收作用 （烟草为什么有作用？）
 
@@ -783,7 +785,7 @@ $$
 
 烟雾浓度 $C(x,y,z,t)$ 的变化规律
 
-$[t,t+\Delta t]  $通过$ \Omega $流出量$Q_1 = \int_{t}^{t+\Delta t} \iint_S q \cdot n d \sigma dt$
+ $[t,t+\Delta t]$ 通过 $\Omega$ 流出量 $Q_1 = \int_{t}^{t+\Delta t} \iint_S q \cdot n d \sigma dt$ 
 
 $\Omega$ 内烟雾改变量 $Q_2 = \iiint_{v} [C(x,y,z,t+\Delta t) - C(x,y,z,t)] dV$
 
@@ -843,7 +845,7 @@ $\mu \sim$ 仪器灵敏度，当 $I/I_0 < 1 - \mu$，观测结果为暗。
 
 设光源在 $z = -\infty$，仪器在 $z = \infty$，则观测到的明暗界限为:
 
-$e^{-\alpha \int_{-\infty}^{\infty} C(x,y,z,t) dz} = 1 - \mu$$\sim$ 不透光区域边界
+$e^{-\alpha \int_{-\infty}^{\infty} C(x,y,z,t) dz} = 1 - \mu$ $\sim$ 不透光区域边界
 
 ### 求解方程
 
@@ -911,7 +913,7 @@ $$
 >    - 该半径在 $ t_1$ 时刻达到，这是烟雾扩散过程中的最大范围。
 > 4. **蓝色虚线**(垂直线)$t_2 = \frac{\alpha Q}{4 \pi k \mu}$:
 >    - 这条蓝色虚线表示烟雾完全消失的时间 $t_2 $。
->    - 此时，边界半径 $r(t)$已经缩小至零，意味着烟雾已经完全消散。
+>    - 此时，边界半径 $r(t)$ 已经缩小至零，意味着烟雾已经完全消散。
 
 ## 代码
 
