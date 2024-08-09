@@ -53,7 +53,7 @@
 
 **牛顿冷却（加热）定律**：将温度为 $T$ 的物体放入处于常温 $m$ 的介质中时，$T$ 的变化速率正比于 $T$ 与周围介质的温度差。
 
-牛顿冷却定律描述了物体温度随时间变化的过程。根据牛顿冷却定律，温度 $T(t)$ 随时间 $t$ 的变化满足以下微分方程：
+牛顿冷却定律描述了物体温度随时间变化的过程。根据牛顿冷却定律，温度 $$T(t)$$ 随时间 $t$ 的变化满足以下微分方程：
 
 $$
 \frac{dT}{dt} = -k(T - m)
@@ -250,7 +250,7 @@ $$
 t_m = \lambda^{-1} \ln \left(\frac{1}{i_0} - 1\right)
 $$
 
-$\lambda$$\downarrow \rightarrow t_m \uparrow$
+$\lambda$ $\downarrow \rightarrow t_m \uparrow$
 
 $$
 t \rightarrow \infty \Rightarrow i \rightarrow 1
