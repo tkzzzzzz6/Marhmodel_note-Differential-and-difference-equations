@@ -82,7 +82,7 @@ $$
 3. 计算 10 分钟后物体的温度。
 
 
-![alt text](<picture/image copy.png>)
+![alt text](<picture/image copy_13.png>)
 ```python
 import numpy as np
 
@@ -119,7 +119,7 @@ print(f"10分钟后物体的温度为: {T_after_10_minutes:.2f} °C")
 
 > 基本方法:按照传播过程的一般规律建立数学模型
 
-
+![alt text](<picture/image copy.png>)
 ### 模型 1：I 模型
 
 已感染人数（病人）记为 $$i(t)$$
