@@ -82,7 +82,7 @@ $$
 3. 计算 10 分钟后物体的温度。
 
 
-![alt text](<picture/image copy_13.png>)
+![alt text](<picture/image copy 13.png>)
 ```python
 import numpy as np
 
@@ -857,7 +857,7 @@ $$
 \Rightarrow \int_{-\infty}^{\infty} C(x,y,z,t) dz = \frac{1}{\alpha} \ln \frac{1}{1-\mu} \approx \frac{\mu}{\alpha} \quad (\mu \text{ 很小})
 $$
 
-而$ \quad \int_{-\infty}^{\infty} C(x,y,z,t) dz = \frac{Q}{4 \pi kt} e^{-\frac{x^2 + y^2}{4kt}}$
+而 $\quad \int_{-\infty}^{\infty} C(x,y,z,t) dz = \frac{Q}{4 \pi kt} e^{-\frac{x^2 + y^2}{4kt}}$
 
 $$
 \frac{Q}{4 \pi kt} e^{-\frac{x^2 + y^2}{4 kt}} = \frac{\mu}{\alpha}
