@@ -807,7 +807,9 @@ $$
 
 $$
 \frac{\partial C}{\partial t} = k [\text{div}(\nabla C)] = k \left(\frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2}\right)
-\\
+$$
+
+$$
 -\infty<x,y,z<\infty,t>0
 $$
 
