@@ -471,7 +471,7 @@ $$
 
 #### SIR 模型的数值解
 
-设 $\lambda = 1$ , $\mu = 0.3$ , $i_0 = 0.02$, $s_0 = 0.98$, 用 MATLAB 计算作图 $i(t)$,$s(t)$ 及 $i(s)$
+设 $\lambda = 1$ , $\mu = 0.3$ , $i_0 = 0.02$, $s_0 = 0.98$, 用 MATLAB 计算作图 $i(t)$, $s(t)$ 及 $i(s)$
 
 $$
 \frac{di}{ds} = \frac{\lambda si - \mu i}{-\lambda si}
