@@ -810,7 +810,7 @@ $$
 $$
 
 $$
- - \infty< x,y,z < \infty, t>0
+- \infty< x,y,z < \infty, t>0
 $$
 
 ## 初始条件
