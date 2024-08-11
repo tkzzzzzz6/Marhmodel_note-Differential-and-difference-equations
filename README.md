@@ -296,7 +296,7 @@ plot(susceptible_half, 0.5, 'ro', 'MarkerSize', 10, 'MarkerFaceColor', 'r');
 % 添加标记点的文本说明
 text(infected_half, 0.55, ['t_mi = ', num2str(infected_half, '%.2f')], 'Color', 'b', 'HorizontalAlignment', 'right');
 text(susceptible_half, 0.55, ['t_ms = ', num2str(susceptible_half, '%.2f')], 'Color', 'r', 'HorizontalAlignment', 'left');
-
+      
 title('SI Model');
 xlabel('Time');
 ylabel('Population Ratio');
@@ -479,6 +479,7 @@ $$
 
 ![alt text](<picture/image copy 7.png>)
 ![alt text](<picture/image copy 8.png>)
+
 #### 模型的相轨线分析
 
 对于前面求解分析检验的方程组
@@ -501,6 +502,7 @@ D = \{(s, i) | s \geq 0, i \geq 0, s + i \leq 1\}
 $$
 
 $s(t)$ 单调递减 $\rightarrow$ 相轨线的方向
+
 ![alt text](<picture/image copy 9.png>)
 
 
@@ -622,7 +624,11 @@ $$
 \end{cases}
 $$
 
-定解条件：$q(ut,t) = auw(ut,t)$
+定解条件: 
+
+$$
+q(ut,t) = auw(ut,t)
+$$
 
 1. 求 $w(ut,t)$ 考察 $\Delta t$ 内毒物密度的增量
 
@@ -800,7 +806,9 @@ Q_2 = -Q_1
 $$
 
 $$
-\frac{\partial C}{\partial t} = k [\text{div}(\nabla C)] = k \left(\frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2}\right),-\infty<x,y,z<\infty,t>0
+\frac{\partial C}{\partial t} = k [\text{div}(\nabla C)] = k \left(\frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2}\right)
+\\
+-\infty<x,y,z<\infty,t>0
 $$
 
 ## 初始条件
